@@ -15,6 +15,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 100;
 }
 
 .navbar a {
@@ -90,6 +91,7 @@ body {
 
 .row {
     display: flex;
+    margin-top: 10px
 }
 
 .white {
@@ -152,7 +154,7 @@ h2 {
 h4 {
     margin: 0;
     font-weight: 400;
-    color: grey;
+    color: white;
 }
 
 .job-title {
